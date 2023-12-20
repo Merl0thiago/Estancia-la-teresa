@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.top-info {
+    background-color: #ffd699; /* Amarillo claro como color secundario */
+    padding: 20px;
+}
+
+header {
+    background-color: #ff66b2; /* Rosa más oscuro para combinar con el rosa principal */
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    margin-top: 0px;
+    margin-bottom: 100px;
+    padding: 20px;
+    transition: background-color 0.3s ease; /* Transición suave del color de fondo */
+    
+}
+
+/* Estilos para centrar los botones y ajustar el espaciado */
+.botones-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espaciado entre los botones */
+}
+
+.botones-header {
+    width: 150px; /* Establece el ancho fijo para los botones */
+    background-color: #6fa7cf;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    text-decoration: none;
+}
+
+.botones-header a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.botones-header:hover {
+    color: #ff6666; /* Cambio a un tono de rosa al pasar el cursor */
+}
+
+.botones-header:hover a {
+    color: #ff6666;
+}
+
+main {
+    height: 2000px;
+    background-color: #ffd699; /* Gris claro como color secundario */
+    padding: 20px;
+    
+}
+
+footer {
+    height: auto;
+    background-color: #ff66b2;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Nueva clase para mini botones de redes sociales */
+.redes-sociales {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px; /* Espaciado desde la sección de contacto */
+   
+}
+
+.red-social-link img {
+    width: 30px;
+    height: 30px;
+    
+}
+
+/* Nueva clase para la sección de contacto */
+.contact-section {
+    text-align: left;
+}
+
+.footer-button {
+    background-color: #6fa7cf;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    text-decoration: none;
+}
+
+.footer-button a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.footer-button:hover {
+    background-color: #ff6666;
+    color: #fff;
+}
+
+.footer-button:hover a {
+    color: #fff;
+}
+
+.container {
+    max-width: 1140px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.logo-latere{
+    border-radius: 100%;
+    zoom: 1;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+    
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    .container-mt-5 {
+        max-width: 250px;
+        max-height: 250px;
+    }
